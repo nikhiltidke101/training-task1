@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.dashboard{
+    display: flex;
+}
+
+.image-wrap{
+    width: 70px;
+    height: 70px;
+}
+
+.image-wrap img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.icon-wrap{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.icon-wrap img{
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar{
+    width: 20vw;
+    height: calc(100vh - 30px);
+    background-color: #2C3034;
+    border-right: #7F7F7F solid 1px;
+    color: #7F7F7F;
+    padding: 15px;
+}
+
+.sidebar-logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #BBBBBD;
+    font-size: 15px;
+    justify-content: start;
+}
+
+.sidebar-logo > .image-wrap{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.sidebar-logo > .image-wrap img{
+    border-radius: 0;
+}
+
+.navigation{
+    margin-bottom: 30px;
+}
+
+.nav-button{
+    display: flex;
+    padding: 5px 0pc 5px 10px;
+}
+
+.select{
+    border-left: #F66673 solid 2px;
+    background-color: #34383C;
+    color: #BBBBBD;
+}
+
+.main-section{
+    flex: 1;
+    background-color: #23242B;
+}
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2C3034;
+    padding: 10px 0;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    color: #BBBBBD;
+}
+
+.search-box{
+    display: flex;
+    width: 60%;
+    margin-left: 20px;
+
+}
+.search-box input{
+    width: 80%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+    background-color: #7F7F7F;
+}
+
+.profile > .image-wrap{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.profile > .image-wrap > img{
+    border-radius: 100%;
+}
+
+
+.add-projects{
+    display: flex;
+    align-items: center;
+    background-color: #2C3034;
+    border-bottom: #7F7F7F solid 1px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.profile-section{
+    display: flex;
+    align-items: center;
+}
+
+.profile-section > .image-wrap{
+    margin-right: 20px;
+}
+
+.profile-username{
+    color: #7F7F7F;
+}
+
+.profile-username h2{
+    color: #BBBBBD;
+}
+
+.profile-buttons{
+    display: flex;
+    flex: 1;
+    margin-right: 20px;
+    justify-content: end;
+}
+
+.profile-buttons > .buttons{
+    padding: 10px 20px;
+    background-color: #34383C;
+    border: #BBBBBD solid 1px;
+    color: #BBBBBD;
+    font-size: 13px;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+
+
+/* Main Section */
+.articles{
+    display: flex;
+    flex: 1;
+    /* height: calc(100vh - 191px); */
+    padding: 20px 10px;
+}
+
+.utilities{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.announcements{
+    margin-bottom: 10px;
+}
+
+
+.projects{
+    width: 80%;
+    height: 100%;
+}
+
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title{
+    color: #BBBBBD;
+    margin-bottom: 10px;
+}
+
+.project-card{
+    border-left: #5D4192 solid 10px;
+    position: relative;
+    border-radius: 10px;
+    border-right-width: 5px;
+    width: 40%;
+    padding: 20px;
+    background-color: #2C3034;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.project-title{
+    color: #BBBBBD;
+}
+
+.project-card p{
+    color: #7F7F7F;
+}
+
+.links{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+
+
+.notice-list{
+    background-color: #34383C;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.notice-card{
+    width: 200px;
+    margin: 10px 0px;
+    color: #7F7F7F;
+}
+
+.profile-list{
+    background-color: #34383C;
+    color: #BBBBBD;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.people-profile{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.people-profile > .image-wrap{
+    margin-right: 10px;
+}
