@@ -1,0 +1,43 @@
+.add-projects{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #2C3034;
+    border-bottom: #7F7F7F solid 1px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.profile-section{
+    display: flex;
+    align-items: center;
+}
+
+.profile-section > .image-wrap{
+    margin-right: 20px;
+}
+
+.profile-username{
+    color: #7F7F7F;
+}
+
+.profile-username h2{
+    color: #BBBBBD;
+}
+
+.profile-buttons{
+    display: flex;
+    flex: 1;
+    margin-right: 20px;
+    justify-content: end;
+}
+
+.profile-buttons > .buttons{
+    padding: 10px 20px;
+    background-color: #34383C;
+    border: #BBBBBD solid 1px;
+    color: #BBBBBD;
+    font-size: 13px;
+    margin: 0 10px;
+    border-radius: 20px;
+}
